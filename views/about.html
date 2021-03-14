@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Leo Gonçalves</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+{% extends "layout.html" %}
 
-    <body>
-        <header>
-            <div class="links">
-                <a href="/">Sobre</a>
-                <a href="portifolio">Aulas</a>
-            </div>
-            
-        </header>
+{% block head %}
+        <title>Sobre - Leo Gonçalves</title>
+    {% endblock %}
+
+{% block content %}
+
         <div id="wrapper">
             <img src="https://avatars.githubusercontent.com/u/21069485?s=460&u=2e4e6af285cba177672e6ab6a17a3e5a19d1118a&v=4" 
             alt="Leo Gonçalves">
@@ -25,10 +18,5 @@
             <a href="https://github.com/LeoSanGo" target="_blank">GitHub</a>
             <a href="https://twitter.com/LeoSantGo" target="_blank">Twitter</a>
             <a href="https://www.linkedin.com/in/leosangoncalves/" target="_blank">Linkedin</a>
-
         </div>
-
-
-    </body>
-
-</html>
+{% endblock %}

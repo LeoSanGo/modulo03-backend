@@ -1,20 +1,15 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Leo Gonçalves</title>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
-    </head>
+{% extends "layout.html" %}
 
-    <body>
-        <header>
-            <div class="links">
-                <a href="/">Sobre</a>
-                <a href="/">Aulas</a>
-            </div>
-            
-        </header>
+{% block head %}
+<title>Portfolio - Leo Gonçalves</title>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+
         <div id="wrapper">
             <h1>Aulas</h1>
         </div>
@@ -133,6 +128,4 @@
         </div>
         <script src="scripts.js"></script>
 
-    </body>
-
-</html>
+{% endblock %}
