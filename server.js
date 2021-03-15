@@ -18,7 +18,8 @@ server.get("/", function(req, res){
 })
 
 server.get("/portifolio", function(req, res){
-    return res.render("portifolio")
+
+    return res.render("portifolio", { itens: videos })
 })
 
 server.listen(5000, function() {
