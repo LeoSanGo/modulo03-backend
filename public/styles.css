@@ -96,6 +96,7 @@ header{
 .card {
     background-color: var(--color-rocket);
     display: grid;
+    cursor: pointer; 
 
 }
 
@@ -119,6 +120,7 @@ header{
     background-color: var(--color-rocket);
     filter: brightness(90%);
     padding: 5px 20px;
+    border-radius: 20px;
     text-align: center;
 }
 
@@ -162,4 +164,18 @@ iframe {
     height: 90%;
     position: absolute;
     top: 5%;
+}
+
+/* === FEATURED === */
+.featured-wrapper.card__image-container {
+    position: relative;
+}
+.featured {
+    background: #f7d05f;
+    color: #111;
+    padding: 2px 8px;
+    position: absolute;
+    right: 5px;
+    border-radius: 16px;
+    top: -10px;
 }
